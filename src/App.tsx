@@ -59,7 +59,7 @@ const Homepage: React.FC = () => {
       title: "GitHub Repository",
       description: "Explore the source code that runs this project. Co-generated using Claude 4",
       icon: <Github className="w-6 h-6 text-purple-600" />,
-      path: "https://github.com/turing-patterns", 
+      path: "https://github.com/Genrei123/COMPUTATIONAL-SCIENCE", 
       color: "border-l-purple-500"
     }
   ];
