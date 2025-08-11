@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Palette, Sword, Zap } from 'lucide-react';
+import { Github, Palette, Sword, Zap } from 'lucide-react';
 import ColorEvolution from './pages/ColorEvolution';
 import HungerGames from './pages/HungerGames';
 
@@ -56,10 +56,10 @@ const Homepage: React.FC = () => {
       color: "border-l-red-500"
     },
     {
-      title: "Turing Patterns",
-      description: "Generate mesmerizing patterns based on Alan Turing's reaction-diffusion equations. Create the same patterns found in nature like zebra stripes and coral formations.",
-      icon: <Zap className="w-6 h-6 text-purple-600" />,
-      path: "/turing-patterns", 
+      title: "GitHub Repository",
+      description: "Explore the source code that runs this project. Co-generated using Claude 4",
+      icon: <Github className="w-6 h-6 text-purple-600" />,
+      path: "https://github.com/turing-patterns", 
       color: "border-l-purple-500"
     }
   ];
@@ -133,9 +133,9 @@ const Homepage: React.FC = () => {
               <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <Zap className="w-6 h-6 text-purple-600" />
               </div>
-              <h4 className="font-semibold text-gray-800 mb-2">Pattern Formation</h4>
+              <h4 className="font-semibold text-gray-800 mb-2">Code Examples</h4>
               <p className="text-sm text-gray-600">
-                How simple chemical reactions create complex patterns in nature
+                How we can leverage code to simulate evolution and natural selection
               </p>
             </div>
           </div>
