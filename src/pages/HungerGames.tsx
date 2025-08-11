@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { Play, Pause, RotateCcw, Sword, Shield, Zap, Eye, Heart, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
